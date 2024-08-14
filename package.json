@@ -1,12 +1,12 @@
 {
     "name": "loopple-tailwind",
     "version": "1.0.0",
-    "description": "",
+    "description": "```\r # Install dependencies\r npm install",
     "scripts": {
-      "browsersync": "browser-sync start --directory --server --files --startPath index.html",
-      "build": "tailwindcss build -i src/styles.css -o assets/css/theme.css",
-      "build-minify": "tailwindcss build -i src/styles.css -o assets/css/theme.min.css --minify",
-      "watch": "npx tailwindcss -i src/styles.css -o assets/css/theme.css --watch"
+        "browsersync": "browser-sync start --directory --server --files --startPath index.html",
+        "build": "tailwindcss build -i src/styles.css -o assets/css/theme.css",
+        "build-minify": "tailwindcss build -i src/styles.css -o assets/css/theme.min.css --minify",
+        "watch": "npx tailwindcss -i src/styles.css -o assets/css/theme.css --watch"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.2",
@@ -19,5 +19,9 @@
         "cli": "^1.0.1",
         "highlight.js": "^11.4.0",
         "tailwindcss-transforms": "^2.2.0"
-    }
+    },
+    "main": "tailwind.config.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
